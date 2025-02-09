@@ -1,9 +1,12 @@
 {
-    "dev": true,
-    "log_level": "debug",
+    "log_level": "info",
     "server": {
         "host": "localhost",
         "port": 8080
+    },
+    "git": {
+        "update_seconds": 600,
+        "repository": "https://github.com/emvi/shifu-demo.git"
     },
     "storage": {
         "provider": "s3",
@@ -16,8 +19,7 @@
     "content": {
         "provider": "s3",
         "not_found": {
-            "en": "/not-found",
-            "de": "/de/nicht-gefunden"
+            "en": "/not-found"
         }
     },
     "sass": {
@@ -34,9 +36,5 @@
         "out": "static/bundle.js",
         "source_map": true,
         "watch": true
-    },
-    "analytics": {
-        "provider": "pirsch",
-        "client_secret": ""
     }
 }
