@@ -1,0 +1,15 @@
+{
+    "label": "Text",
+    "content": {
+        "content": "Content"
+    },
+    "copy": {
+        "headline": {
+            "label": "Headline"
+        },
+        "text": {
+            "label": "Text",
+            "type": "html"
+        }
+    }
+}
