@@ -12,12 +12,12 @@
         "url": "https://shifu.emvi.com",
         "secret": "${API_SECRET}"
     },
-    "git": {
+    "_git": {
         "update_seconds": 600,
         "repository": "https://github.com/emvi/shifu-demo.git"
     },
     "content": {
-        "provider": "git",
+        "_provider": "git",
         "not_found": {
             "en": "/not-found"
         }
