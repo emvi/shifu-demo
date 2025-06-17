@@ -1,5 +1,6 @@
 {
     "label": "Head Section",
+    "layout": true,
     "copy": {
         "copyright": {
             "label": "Copyright"

@@ -10,4 +10,7 @@
             <p>Arg: {{ $n }}</p>
         {{ end }}
     </article>
+    
+    {{.CMS.Render .Args .Page (fmt "%s.content" .Content.Position) (index .Content.Content "content")}}
+    <slot name="{{ .Content.Position }}/content"></slot>
 </section>
