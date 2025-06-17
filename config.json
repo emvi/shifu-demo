@@ -39,6 +39,6 @@
     },
     "ui": {
         "path": "/admin",
-        "admin_password": "admin"
+        "admin_password": "${ADMIN_PASSWORD}"
     }
 }
