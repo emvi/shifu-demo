@@ -5,11 +5,13 @@
     },
     "copy": {
         "headline": {
-            "label": "Headline"
+            "label": "Headline",
+            "order": 2
         },
         "text": {
             "label": "Text",
-            "type": "html"
+            "type": "html",
+            "order": 1
         }
     }
 }

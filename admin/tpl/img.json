@@ -9,6 +9,15 @@
         "src": {
             "label": "Image",
             "type": "img"
+        },
+        "max_width": {
+            "label": "Image Max Width",
+            "type": "select",
+            "options": {
+                "": "None",
+                "100px": "100px",
+                "200px": "200px"
+            }
         }
     }
 }

@@ -1,3 +1,7 @@
+{{ $maxWidth := get .Content "max_width" }}
+
 <section class="img" data-shifu-element="{{ .Content.Position }}">
-    <img src="{{ get .Content "src" }}" alt="{{ copy .Page .Content "alt" }}" />
+    <img src="{{ get .Content "src" }}"
+        alt="{{ copy .Page .Content "alt" }}"
+        {{ if $maxWidth }}style="max-width: {{ $maxWidth }};"{{ end }} />
 </section>
