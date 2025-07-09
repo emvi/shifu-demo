@@ -1,7 +1,9 @@
 {
     "label": "Markdown Text",
     "content": {
-        "content": "Content"
+        "content": {
+            "label": "Content"
+        }
     },
     "copy": {
         "headline": {

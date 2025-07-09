@@ -1,7 +1,10 @@
 {
     "label": "Text",
     "content": {
-        "content": "Content"
+        "content": {
+            "label": "Content",
+            "tpl_filter": ["img"]
+        }
     },
     "copy": {
         "headline": {
