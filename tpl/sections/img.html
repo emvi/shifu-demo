@@ -3,5 +3,5 @@
 <section class="img" data-shifu-element="{{ .Content.Position }}">
     <img src="{{ get .Content "src" }}"
         alt="{{ copy .Page .Content "alt" }}"
-        {{ if $maxWidth }}style="max-width: {{ $maxWidth }};"{{ end }} />
+        {{ if $maxWidth }}style="max-width: {{ $maxWidth }}px;"{{ end }} />
 </section>
