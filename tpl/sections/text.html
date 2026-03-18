@@ -1,7 +1,8 @@
 {{ $headline := copy .Page .Content "headline" }}
 {{ $n := index .Args "n" }}
+{{ $color := get .Content "color" }}
 
-<section data-shifu-element="{{ .Content.Position }}">
+<section {{ if $color }}style="color: {{ $color }};"{{ end }} data-shifu-element="{{ .Content.Position }}">
     <article>
         {{ if $headline}}<h1>{{ $headline }}</h1>{{ end }}
         {{ html (copy .Page .Content "text") }}

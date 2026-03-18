@@ -16,5 +16,11 @@
             "type": "html",
             "order": 1
         }
+    },
+    "data": {
+        "color": {
+            "label": "Color",
+            "type": "color"
+        }
     }
 }
