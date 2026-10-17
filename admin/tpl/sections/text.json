@@ -1,8 +1,8 @@
 {
     "label": "Text",
     "content": {
-        "content": {
-            "label": "Content",
+        "images": {
+            "label": "Images",
             "tpl_filter": ["img"]
         }
     },
